@@ -1,5 +1,43 @@
-body {background-color: Wheat;
+body {
+  background-color: Wheat;
 color: Indigo;
-font-family: 'Ubuntu', sans-serif;}
+font-family: 'Ubuntu', sans-serif;
+font-size: 14px;}
 
 h1 {color:red}
+
+/* I am Commenting! */
+* {
+  font-size: 100%;
+}
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+  h1, h2, h3 {
+    font-weight: bold;
+    font-style: italic;
+  }
+  p {
+    line-height: 2;
+  }
+  h1 {
+  text-align: left;
+}
+header h1{
+  text-align: center;
+}
+a {
+  color: red;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
