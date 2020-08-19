@@ -1,15 +1,28 @@
 body {
   background-color: Wheat;
-color: Indigo;
-font-family: 'Ubuntu', sans-serif;
-font-size: 14px;}
+  color: Indigo;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+}
 
-h1 {color:red}
+header, section, footer {
+  padding: 30px;
+
+}
+
+h1 {
+  color:red
+}
 
 /* I am Commenting! */
 * {
   font-size: 100%;
+  margin: 0;
+  line-height: 1;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
 }
+
 h1 {
   font-size: 36px;
 }
@@ -24,10 +37,11 @@ h3 {
   h1, h2, h3 {
     font-weight: bold;
     font-style: italic;
-  }
-  p {
+}
+
+p {
     line-height: 2;
-  }
+}
   h1 {
   text-align: left;
 }
@@ -39,5 +53,28 @@ a {
   text-decoration: none;
 }
 a:hover {
+  text-decoration: underline;
+}
+h1, h2, h3 {
+  margin-bottom: 20px;
+}
+p {
+  margin: 15px 0;
+}
+
+ul, ol {
+  margin: 15px 0;
+}
+
+header {
+  border-bottom: 5px solid grey;
+}
+
+img {
+  height: 300px;
+}
+
+.title {
+  font-size: 48px;
   text-decoration: underline;
 }
