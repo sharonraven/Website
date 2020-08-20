@@ -3,6 +3,7 @@ body {
   color: Indigo;
   font-family: 'Ubuntu', sans-serif;
   font-size: 18px;
+  background-image: url(images/watercolor.png)
 }
 
 header, section, footer {
