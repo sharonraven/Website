@@ -2,7 +2,7 @@ body {
   background-color: Wheat;
   color: Indigo;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 header, section, footer {
@@ -11,7 +11,8 @@ header, section, footer {
 }
 
 h1 {
-  color:red
+  color: blue;
+    font-size: 36px;
 }
 
 /* I am Commenting! */
@@ -23,9 +24,6 @@ h1 {
   /* border: 1px solid red; */
 }
 
-h1 {
-  font-size: 36px;
-}
 
 h2 {
   font-size: 24px;
@@ -36,7 +34,6 @@ h3 {
 }
   h1, h2, h3 {
     font-weight: bold;
-    font-style: italic;
 }
 
 p {
@@ -49,7 +46,7 @@ header h1{
   text-align: center;
 }
 a {
-  color: red;
+  color: blue;
   text-decoration: none;
 }
 a:hover {
@@ -77,4 +74,15 @@ img {
 .title {
   font-size: 48px;
   text-decoration: underline;
+}
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+.banner {
+  height: 350px;
+  background-image: url(images/savings.png);
+  background-size: auto;
+  background-position: center;
 }
