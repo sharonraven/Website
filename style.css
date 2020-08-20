@@ -3,7 +3,8 @@ body {
   color: Indigo;
   font-family: 'Ubuntu', sans-serif;
   font-size: 18px;
-  background-image: url(images/watercolor.png)
+  background-image: url(images/watercolor.png);
+  /* background-repeat: repeat; */
 }
 
 header, section, footer {
@@ -19,7 +20,7 @@ h1 {
 /* I am Commenting! */
 * {
   font-size: 100%;
-  margin: 0;
+  margin: 40px;
   line-height: 1;
   box-sizing: border-box;
   /* border: 1px solid red; */
@@ -57,7 +58,7 @@ h1, h2, h3 {
   margin-bottom: 20px;
 }
 p {
-  margin: 15px 0;
+  margin: 50px 0;
 }
 
 ul, ol {
@@ -65,7 +66,7 @@ ul, ol {
 }
 
 header {
-  border-bottom: 5px solid grey;
+  border-bottom: 5px solid pink;
 }
 
 img {
